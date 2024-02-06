@@ -65,3 +65,18 @@
     color: rgb(255, 255, 255);
     border-radius: 40px;
 }
+
+@media screen and (max-width: 768px) {
+    .button-container {
+        justify-content: center;
+    }
+
+    .menu-button {
+        margin: 10px 5px;
+    }
+
+    .header-button {
+        font-size: medium;
+        padding: 0.3rem 0.7rem;
+    }
+}
